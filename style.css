@@ -1,1 +1,31 @@
-body { background-color: #1a001f; color: white; font-family: 'Comic Sans MS', cursive; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1b0033;
+  color: white;
+  font-family: 'Fredoka', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+}
+.character {
+  width: 250px;
+  margin: 1rem auto;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #9900ff;
+}
+.socials {
+  margin-top: 2rem;
+}
+.socials img {
+  width: 36px;
+  margin: 0 10px;
+  transition: transform 0.3s;
+}
+.socials img:hover {
+  transform: scale(1.2);
+}
